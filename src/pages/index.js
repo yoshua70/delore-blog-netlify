@@ -20,6 +20,7 @@ const IndexPage = ({
     <Layout>
       <Helmet>
         <title>{site.siteMetadata.title}</title>
+        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
       <HeroHeader/>

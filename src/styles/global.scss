@@ -171,7 +171,6 @@ a {
     margin-bottom: 32px;
     text-align: center;
   }
-  
 }
 .post-thumbnail {
   text-align: center;
@@ -213,6 +212,7 @@ a {
   grid-template-columns: 1fr;
   grid-gap: 32px;
   margin-top: 32px;
+  margin-bottom: 32px;
 }
 .card {
   display: grid;
@@ -246,6 +246,7 @@ a {
     color: var(--text-color);
     text-decoration: none;
   }
+  
 }
 .post-meta {
   font-size: 0.8rem;

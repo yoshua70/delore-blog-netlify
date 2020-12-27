@@ -5,7 +5,7 @@ import ThemeChanger from "../components/themeChanger"
 export default (props) => (
   <nav className="navigation"> 
     <Link to="/contact">Contact</Link>
-    <div data-netlify-identity-button>Login with Netlify Identity</div>
+    <Link to="/blog">Blog</Link>
     <ThemeChanger/>
   </nav>
   

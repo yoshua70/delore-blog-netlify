@@ -2,8 +2,9 @@
 template: BlogPost
 path: /remark-kitchen-sink
 date: 2020-02-21T12:12:25.364Z
-title: 'Hello World: The remark Kitchen Sink'
+title: "Rester à l'institut durant les vacances"
 thumbnail: /assets/image-6.jpg
+hashtag: stories
 ---
 # h1 Heading 8-)
 

@@ -4,8 +4,11 @@ import ThemeChanger from "../components/themeChanger"
 
 export default (props) => (
   <nav className="navigation"> 
-    <Link to="/contact">Contact</Link>
+    
     <Link to="/blog">Blog</Link>
+    <a href="https://twitter.com/itz_dydy" target="_blank" rel="noopener noreferrer">
+      Twitter
+    </a>
     <ThemeChanger/>
   </nav>
   

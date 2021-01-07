@@ -51,7 +51,7 @@ export const pageQuery = graphql`
             path
             title
             thumbnail
-            hashtag
+            category
           }
         }
       }

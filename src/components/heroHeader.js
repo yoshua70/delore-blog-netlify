@@ -22,7 +22,7 @@ export default () => (
           dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
         />
         <Link to='/blog' className="button -primary">Mes stories &rarr;</Link>
-        <a href="https://twitter.com/itz_dydy" target="_blank" rel="noopener noreferrer" className="button -primary">Contactez moi &rarr;</a>
+        <a href="https://twitter.com/itz_dydy" target="_blank" rel="noopener noreferrer" className="button -primary button-secon">Contactez moi &rarr;</a>
       </div>
     )}
   />

@@ -16,11 +16,11 @@ const BlogPage = ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   const StoriesPosts = edges
-    .filter(edge => edge.node.frontmatter.hashtag === "stories")
+    .filter(edge => edge.node.frontmatter.category === "stories")
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   const DecouvertesPosts = edges
-    .filter(edge => edge.node.frontmatter.hashtag === "decouvertes")
+    .filter(edge => edge.node.frontmatter.category === "decouvertes")
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
   
     return (
@@ -66,7 +66,7 @@ export const pageQuery = graphql`
             path
             title
             thumbnail
-            hashtag
+            category
           }
         }
       }

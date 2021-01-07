@@ -14,7 +14,7 @@ const PostLink = ({ post }) => (
           {post.frontmatter.title}
         </Link>
       </h2>
-      <div className="post-meta post-meta--hashtag">Dans '{post.frontmatter.hashtag}'</div>
+      <div className="post-meta post-meta--hashtag">Dans '{post.frontmatter.category}'</div>
       <div className="post-meta">{post.frontmatter.date}</div>
     </header>
   </article>

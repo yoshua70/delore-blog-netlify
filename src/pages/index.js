@@ -22,6 +22,9 @@ const IndexPage = ({
         <title>{site.siteMetadata.title}</title>
         <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <meta name="description" content={site.siteMetadata.description} />
+        <meta name="keywords" content="blog, storyteller" />
+        <meta name="google-site-verification" content="L5RhRjs4dp3EIYi3TJPxtQUS7Qw-0gIP81fsnUP25S4U"/>
+        <html lang="fr"/>
       </Helmet>
       <HeroHeader/>
       <h2>Posts récents &darr;</h2>

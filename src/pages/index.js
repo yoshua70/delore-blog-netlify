@@ -23,13 +23,6 @@ const IndexPage = ({
         <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <meta name="description" content={site.siteMetadata.description} />
         <meta name="keywords" content="blog, storyteller" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-        
-=======
->>>>>>> avatar-ui
-=======
->>>>>>> avatar-ui
         <html lang="fr"/>
       </Helmet>
       <HeroHeader/>

@@ -42,6 +42,13 @@ collections:
                 label: Description
                 default: ''
                 required: false
+              - widget: image
+                name: avatar
+                hint: "Image size 800x800 works best :)"
+                required: false
+                media_library:
+                  config:
+                    multiple: false
   - name: blog
     label: Blog
     folder: _data/blog

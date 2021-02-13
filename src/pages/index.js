@@ -24,7 +24,10 @@ const IndexPage = ({
         <meta name="description" content={site.siteMetadata.description} />
         <meta name="keywords" content="blog, storyteller" />
 <<<<<<< HEAD
-        <meta name="google-site-verification" content="qxzGS3Eoynv6MG4GyylvMXQFFIXNye2QX5gdH51I_Ac" />
+<<<<<<< HEAD
+        
+=======
+>>>>>>> avatar-ui
 =======
 >>>>>>> avatar-ui
         <html lang="fr"/>

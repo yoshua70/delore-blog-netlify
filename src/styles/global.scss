@@ -77,7 +77,9 @@ a {
   align-items: center;
   font-weight: 300;
   a {
-    color: #888;
+    //color: #888;
+    color: #fff;
+    font-weight: 700;
     text-decoration: none;
     margin: 0 8px 0;
     &[aria-current] {
@@ -94,14 +96,17 @@ a {
 }
 .site-header {
   display: flex;
+  height: 30vh;
   justify-content: space-between;
-  padding: 20px 0;
-  background: var(--site-header);
+  padding: 20px 10px;
+  //background: var(--site-header);
+  background-image: url('/assets/pattern (5).png');
   margin-bottom: 32px;
   align-items: center;
 }
 .site-title a {
-  color: var(--primary-color);
+  //color: var(--primary-color);
+  color: #fff;
   text-decoration: none;
   font-weight: 900;
   text-transform: uppercase;

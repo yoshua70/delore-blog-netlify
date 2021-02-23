@@ -2,6 +2,7 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
+import patternBg from "../../public/assets/pattern.jpg";
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -17,7 +18,7 @@ export default ({ children }) => {
   )
   return (
     <div className="site-wrapper">
-      <header className="site-header">
+      <header className="site-header" style={{backgroundImage: `url(${patternBg})`}}>
         <div className="site-title">
           <Link to="/">{data.site.siteMetadata.title}</Link>
         </div>
